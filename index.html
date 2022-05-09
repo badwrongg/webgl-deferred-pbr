@@ -1,0 +1,36 @@
+﻿<!--
+    File: index.html
+    Author: Nathan Hunter
+    Date: May 9, 2022
+
+    Purpose: Page of a WebGL scene found in main.js 
+             Uses deferred rendering and a PBR lighting
+             model.
+ -->
+
+<!DOCTYPE html>
+
+<html lange="en">
+
+<head>
+
+    <title>WebGL Deferred Rendering</title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="src/page.css">
+    <script type="text/javascript" src="lib/dat.gui.js"></script>
+    <script type="text/javascript" src="lib/gl-matrix-min.js"></script>
+    <script type="text/javascript" src="res/models_data.js"></script>
+    <script type="text/javascript" src="shaders/default.js"></script>
+    <script type="text/javascript" src="shaders/gbuffer.js"></script>
+    <script type="text/javascript" src="shaders/deferred.js"></script>
+    <script type="text/javascript" src="shaders/passthrough.js"></script>
+    <script type="text/javascript" src="src/GLDeferredRenderer.js"></script>
+
+</head>
+
+    <body>
+        <script type="text/javascript" src="src/main.js"></script>
+    </body>
+
+</html>
